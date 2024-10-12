@@ -4,9 +4,9 @@ import { withSentryConfig } from "@sentry/nextjs";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: ["@v1/supabase"],
-  experimental: {
-    instrumentationHook: process.env.NODE_ENV === "production",
-  },
+  // experimental: {
+  //   instrumentationHook: process.env.NODE_ENV === "production",
+  // },
   typescript: {
     ignoreBuildErrors: true,
   },
