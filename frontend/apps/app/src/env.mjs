@@ -35,7 +35,7 @@ export const env = createEnv({
     UPSTASH_REDIS_REST_TOKEN: process.env.UPSTASH_REDIS_REST_TOKEN,
     UPSTASH_REDIS_REST_URL: process.env.UPSTASH_REDIS_REST_URL,
     VERCEL_URL: process.env.VERCEL_URL,
-    ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY,
+    // ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY,
     NEXT_PUBLIC_HUMAN_DEBUG_BACKEND_API_URL: process.env.NEXT_PUBLIC_HUMAN_DEBUG_BACKEND_API_URL,
   },
   skipValidation: !!process.env.CI || !!process.env.SKIP_ENV_VALIDATION,

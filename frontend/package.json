@@ -3,7 +3,7 @@
   "private": true,
   "workspaces": ["packages/*", "apps/*", "tooling/*"],
   "scripts": {
-    "build": "turbo build",
+    "build": "turbo run build --filter=@v1/app --debug",
     "clean": "git clean -xdf node_modules",
     "clean:workspaces": "turbo clean",
     "dev": "turbo dev --parallel",
@@ -31,6 +31,7 @@
     "axios": "^1.7.7",
     "react-dropzone": "^14.2.9",
     "react-heatmap-grid": "^0.9.1",
-    "react-markdown": "^9.0.1"
+    "react-markdown": "^9.0.1",
+    "vercel": "^37.8.0"
   }
 }
